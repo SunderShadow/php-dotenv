@@ -1,0 +1,24 @@
+{
+    "name": "sunder/dotenv",
+    "description": ".env file parser",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sunder\\Dotenv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SunderShadow",
+            "email": "sunundershadow@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
